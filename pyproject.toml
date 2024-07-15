@@ -15,7 +15,7 @@ license = "GPL-3.0-or-later"
 python = ">=3.8.1,<4.0"
 Flask = "^2.2.5"
 Pillow = "^10.3.0"
-gunicorn = "^20.1.0"
+gunicorn = "^22.0.0"
 
 [tool.poetry.dev-dependencies]
 mypy = "^1.0.0"
