@@ -1,9 +1,8 @@
-"""Configuration options"""
+"""Configuration options."""
 
 from pathlib import Path
 
-
-ROOT_DIR = Path(__file__).parent
+ROOT_DIR = Path(__file__).parents[1]
 UPLOADS_DIR = ROOT_DIR / 'dynamic' / 'UPLOADS'
 EXPORTS_DIR = ROOT_DIR / 'dynamic' / 'EXPORTS'
 
